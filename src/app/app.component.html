@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center; color: teal">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<!-- Input and Output Decarator Example -->
+<app-child [count]='counter' (increment)='incrementCounter($event)'></app-child>
+
+<app-countdown-parent></app-countdown-parent>
+
+<app-votetaker></app-votetaker>
+
+<div class="container">
+  <input style="width: 100%;" type="text" appRainbowDirective>
+</div>
+
+
+<div style="height: 200px;"></div>
+
+

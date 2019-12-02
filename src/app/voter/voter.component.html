@@ -1,0 +1,4 @@
+
+<h4 class="text-info">{{ name }}</h4>
+<button class="btn btn-success" (click)="vote(true)" [disabled]="didVote">Agree</button>
+<button class="btn btn-danger" (click)="vote(false)" [disabled]="didVote">Disagree</button>

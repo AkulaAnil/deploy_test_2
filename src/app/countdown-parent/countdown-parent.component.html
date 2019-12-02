@@ -1,0 +1,12 @@
+<div class="center">
+  <h3>Countdown to Liftoff</h3>
+  
+  <div id="buttons">
+    <button (click)="timer.start()">Start</button>
+    <button (click)="timer.stop()">Stop</button>
+  </div>
+
+  <div class="seconds">{{timer.seconds}}</div>
+
+  <app-countdown-timer #timer></app-countdown-timer>
+</div>
